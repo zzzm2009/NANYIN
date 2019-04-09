@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/situation_img"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/list_text"
+        android:text="社团名字" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/situation_img"
+        android:layout_alignBottom="@+id/situation_img"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/situation_img"
+        android:layout_toRightOf="@+id/situation_img"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/address_img"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textColor="@color/list_text"
+        android:layout_marginLeft="20dp"
+        android:text="社团地点"
+        android:layout_below="@id/situation_img"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/address_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_tv"
+        android:layout_alignStart="@+id/name_tv"
+        android:layout_below="@+id/situation_img"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+</RelativeLayout>

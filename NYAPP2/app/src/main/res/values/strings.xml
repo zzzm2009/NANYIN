@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">南音</string>
+    <string name="main">首页</string>
+    <string name="avbtn">音频</string>
+    <string name="audio_video">音频</string>
+    <string name="instrument">乐器</string>
+    <string name="club">社团介绍</string>
+    <string name="aboutus">关于我们</string>
+    <string name="aboutme">我</string>
+    <string name="instrumentlist">乐器列表</string>
+    <string name="all">所有信息</string>
+    <string name="instrumentsituation">乐器详情</string>
+    <string name="nowinstrument">当前乐器</string>
+    <string name="someclub">部分社团</string>
+    <string name="aboutus2">素琴弦已绝，不绝是南音</string>
+</resources>

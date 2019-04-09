@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e5c9c2</color>
+    <color name="colorPrimaryDark">#e5c9c2</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="QQblue">#0099FF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#6c6c6c</color>
+    <color name="grey_light">#a4a4a4</color>
+    <color name="list_record">#f6f6f6</color>
+    <color name="list_text">#dddddd</color>
+    <color name="red">#d70d0d</color>
+    <color name="avbtn">#c97f74</color>
+    <color name="instrumentbtn">#7e3c33</color>
+    <color name="clubbtn">#c05b4d</color>
+    <color name="aboutusbtn">#e5c9c2</color>
+    <color name="aboutmebtn">#3f130d</color>
+</resources>

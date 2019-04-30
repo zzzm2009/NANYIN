@@ -32,9 +32,8 @@ public class StartActivity extends AppCompatActivity {
         new android.os.Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent mainIntent = new Intent(StartActivity.this,MainActivity.class);
-                StartActivity.this.startActivity(mainIntent);
-                StartActivity.this.finish();
+                Intent mainIntent = new Intent(StartActivity.this,LoginActivity.class);
+                startActivity(mainIntent);
             }
         },SPLASH_DISPLAY_LENGHT);
 

@@ -2,7 +2,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:leon="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="@color/white">
 
@@ -45,13 +44,151 @@
             app:civ_border_width="2dp"
             app:civ_circle_background_color="@color/colorPrimaryDark"
             app:civ_fill_color="@color/colorAccent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px">
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:textColor="@color/black"
+                android:text="@string/username"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/label1"
+                android:background="@null"
+                android:gravity="right"
+                android:textColor="@color/grey_light"
+                android:padding="5dip"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_text"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px">
 
         <TextView
+            android:id="@+id/label3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="游客模式"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:textColor="@color/black"
+            android:text="@string/registerday"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/registerday"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/label3"
+            android:background="@null"
+            android:gravity="right"
             android:textColor="@color/grey_light"
-            android:layout_gravity="center_horizontal"/>
+            android:padding="5dip"
+            android:textSize="18sp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_text"></View>
     </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_text"></View>
+        <TextView
+            android:id="@+id/yourcomment"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/yourcomment"
+            android:typeface="sans"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_text"></View>
+        <TextView
+            android:id="@+id/changepassword"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/changepassword"
+            android:typeface="sans"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/list_text"></View>
+
+        <TextView
+            android:id="@+id/logout"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/logout"
+            android:typeface="sans"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
 
 </LinearLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/contexttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="评论内容"
+        android:textColor="@color/list_text"/>
+    <TextView
+        android:id="@+id/contextTv"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:height="25dp"
+        android:layout_toRightOf="@id/contexttitle"
+        android:layout_alignBaseline="@+id/contexttitle"
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/deltime"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:text="评论时间"
+        android:textColor="@color/list_text"
+        android:layout_below="@id/contexttitle"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/commenttimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:height="25dp"
+        android:layout_toRightOf="@id/deltime"
+        android:layout_below="@id/contexttitle"
+        android:layout_alignBaseline="@+id/deltime"
+        android:layout_margin="5dp"
+        android:textSize="15sp"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
